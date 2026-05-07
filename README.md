@@ -142,10 +142,7 @@ npm run dev
 5. **用户补充输入**：
    - 在用户输入框输入您的想法
    - 点击 **「提交」** 按钮
-6. **检查共识**：
-   - 点击 **「检查共识」** 按钮
-   - 主持人会自动检查各位专家的观点是否一致
-7. **轮次控制**：
+6. **轮次控制**：
    - 点击 **「开始下一轮」** 进入新一轮讨论
 
 #### 第六步：结束会议
@@ -417,7 +414,7 @@ AI生成会议信息（多选项）
 AIMeeting/
 ├── meeting-backend/
 │   ├── app.py              # Flask后端主文件
-│   ├── requirements.txt    # Python依赖（含openai库）
+│   ├── requirements.txt    # Python依赖
 │   ├── meetings/           # 会议JSON文件存储目录
 │   └── API_EXAMPLES.md     # API示例文档
 └── meeting-front/
@@ -428,6 +425,7 @@ AIMeeting/
         ├── main.js
         ├── App.vue         # Vue主组件
         └── assets/style.css
+        └── router/index.js
 └── README.md
 ```
 
